@@ -7,7 +7,6 @@ from pymongo import MongoClient
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-import pandas as pd
 from tkinter import filedialog
 
 root=tkinter.Tk()

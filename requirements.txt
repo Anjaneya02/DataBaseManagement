@@ -1,1 +1,10 @@
+python requirements for project_mongo:-
 pymongo==4.5.0
+local server for project_monog
+mongodb
+
+python requirements for project_sql:-
+ pymysql==1.1.0
+local server for project_sql:-
+Mysql8.0 client line
+information on tables  for sql can be found in tables.txt

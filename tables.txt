@@ -1,0 +1,46 @@
+mysql> create database SMS;
+
+
+mysql> use SMS;
+
+
+mysql> create table store(StoreID varchar(100), Name varchar(100), Address varchar(100), City varchar(100), phoneNo varchar(100), EmailID varchar(100), RegistrationNo varchar(100));
+
+
+mysql> describe store;
+
+
+mysql> alter table store modify PhoneNO varchar(100);
+ 
+
+mysql> describe store;
+ 
+
+mysql> create table productcategory(CategoryID varchar(100), Categoryname varchar(100), Description varchar(100));
+ 
+
+mysql> create table product(ProductID varchar(100), CategoryID varchar(100), Productname varchar(100), Unit_of_sale varchar(100), Price_per_unit varchar(100), Open_qty varchar(100), Current_qty varchar(100));
+ 
+
+ 
+
+mysql> create table suppliers(SupplierID varchar(100), Suppliername varchar(100), Address varchar(100), City varchar(100), Email varchar(100), PhoneNo varchar(100), categoryID varchar(100));
+ 
+
+mysql> create table stockin(Stock_in_ID varchar(100), SupplierID varchar(100), CategoryID varchar(100), Qty_in varchar(100), Date_in varchar(100));
+ 
+
+mysql> create table customers(CustomerID varchar(100), Customername varchar(100), Address varchar(100), EmailID varchar(100), PhoneNO varchar(100));
+ 
+
+mysql> create table orders(OrderID varchar(100),CustomerID varchar(100), CategoryID varchar(100), ProductID varchar(100), Date_of_order  varchar(100), Qty varchar(100));
+ 
+
+mysql> create table bill(CustomerID varchar(100),OrderID varchar(100), CategoryID varchar(100), Amount varchar(100));
+ 
+
+mysql> describe store; describe product; describe productcategory; describe product; descibe suppliers; describe stockin; describe customers; describe orders; describe bill;
+ 
+CREATE TABLE users (username VARCHAR(255) NOT NULL,password VARCHAR(255) NOT NULL,user_type ENUM('Admin', 'Regular') NOT NULL);
+
+ 

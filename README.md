@@ -11,8 +11,8 @@ This Warehouse Management System provides a user-friendly interface for managing
 - **Login Page:**
   - Users can log in with their credentials.
   - New users can proceed to the signup page.
+![login page](https://github.com/Anjaneya02/DataBaseManagement/assets/142112958/e3afc6d9-fa93-4556-8bb5-94a1b0c12736)
 
-  ![Login Page](https://github.com/Anjaneya02/DataBaseManagement/assets/142112958/fed8c592-eb5f-4455-b737-f22866eb3afd)
 
 - **Signup Page:**
   - Users can create an account with a username and password.

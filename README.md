@@ -37,7 +37,11 @@ This Warehouse Management System provides a user-friendly interface for managing
   ![Insert Screen](https://github.com/Anjaneya02/DataBaseManagement/assets/142112958/e9aa45fd-423c-4a11-a8aa-2dbd9bbe5ff5)
   ![Delete Screen](https://github.com/Anjaneya02/DataBaseManagement/assets/142112958/1e3a4c89-763b-4a93-98c4-5d1cd87f3f4c)
   ![View Screen](https://github.com/Anjaneya02/DataBaseManagement/assets/142112958/99e96a50-d1b1-459a-ac54-8dac62154432)
-
+## User Roles
+**Admin and User Access:**
+- The system distinguishes between admin and user roles.
+- Admins have access to all features, while users can only access view-related options.
+- 
 ## Implementation
 
 - The project incorporates both SQL and MongoDB databases.
@@ -49,6 +53,7 @@ This Warehouse Management System provides a user-friendly interface for managing
 1. **User-Friendly Interface:** The Tkinter interface provides a simple and familiar user experience.
 2. **Table Editing:** The system allows easy manipulation of warehouse data with various actions.
 3. **Dual Database Support:** Implementation supports both SQL and MongoDB.
+4. **Role-Based Access:** Admins have comprehensive access, while users are limited to view options.
 
 **Cons:**
 1. **Static Design:** The project's static nature may limit customization for diverse use cases.

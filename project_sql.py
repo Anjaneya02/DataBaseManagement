@@ -6022,7 +6022,7 @@ def forgot():
                
 
         def send_email():
-            from_address = "augustinegomes000@gmail.com"
+            from_address = "youremail"
             to_address = mailid
 
             # Create message container - the correct MIME type is multipart/alternative.
@@ -6041,8 +6041,8 @@ def forgot():
             msg.attach(part1)
 
             # Credentials
-            username = 'augustinegomes000@gmail.com'  
-            password = 'cdqnvrzazfmnemzp'
+            username = 'youremail'  
+            password = 'your gmail password'
 
             # Sending the email
             ## note - this smtp config worked for me, I found it googling around, you may have to tweak the # (587) to get yours to work

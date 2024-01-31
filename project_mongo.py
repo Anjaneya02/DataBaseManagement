@@ -8,7 +8,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from tkinter import filedialog
-
+import pandas as pd
 root=tkinter.Tk()
 root.state('zoomed')
 root.config(bg="#89CFEF")
